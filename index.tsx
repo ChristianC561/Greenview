@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ChevronRight, ArrowLeft } from 'lucide-react'
@@ -9,23 +8,22 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-slate-50">
       <div className="relative py-24 overflow-hidden">
         <div className="absolute inset-0">
-          <Image 
+          <img 
             src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=1920&h=600&fit=crop" 
             alt="Modern office environment" 
-            fill 
             className="object-cover"
             priority 
           />
           <div className="absolute inset-0 bg-gradient-to-br from-sky-900/95 to-sky-800/95" />
         </div>
         <div className="container relative">
-          <Link 
+          <a 
             href="/" 
             className="inline-flex items-center text-white hover:text-sky-200 mb-8 transition-colors"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Home
-          </Link>
+          </a>
           <h1 className="text-5xl font-bold mb-6 text-white">Our Services</h1>
           <p className="text-xl text-sky-100 max-w-2xl">
             Comprehensive recruitment and staffing solutions tailored to your organization's unique needs.
@@ -161,11 +159,10 @@ export default function ServicesPage() {
             ].map((step, index) => (
               <Card key={index} className="border-0 shadow-lg overflow-hidden">
                 <div className="relative h-48">
-                  <Image 
+                  <img 
                     src={step.image || "/placeholder.svg"}
                     alt={step.title}
-                    fill
-                    className="object-cover"
+                    className="object-cover w-full h-full"
                   />
                 </div>
                 <CardContent className="p-6">
@@ -186,7 +183,7 @@ export default function ServicesPage() {
               Let's discuss how we can help you find the perfect candidates for your organization.
             </p>
             <Button size="lg" asChild className="bg-white text-sky-900 hover:bg-sky-50">
-              <Link href="/">Contact Us Today</Link>
+              <a href="/">Contact Us Today</a>
             </Button>
           </div>
         </div>
