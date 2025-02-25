@@ -1,60 +1,4 @@
-# Greenview - Resume Website
-
-This is a personal resume website built with React, Vite, and deployed on GitHub Pages.
-
-## GitHub Pages Deployment
-
-This project is configured to be deployed on GitHub Pages using GitHub Actions. The deployment process is automated through the workflow defined in `.github/workflows/deploy.yml`.
-
-### How it works
-
-1. When you push changes to the `main` branch, GitHub Actions will automatically:
-   - Install dependencies
-   - Build the project
-   - Deploy the built files to the `gh-pages` branch
-
-2. GitHub Pages is configured to serve the content from the `gh-pages` branch.
-
-### Accessing the deployed site
-
-Once deployed, the site will be available at: `https://[your-github-username].github.io/Greenview/`
-
-## Local Development
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-## Customization
-
-To customize this website for your own resume:
-
-1. Edit the content in `src/App.tsx` and other components
-2. Update styles in CSS files
-3. Add your own assets in the `public` directory
-
-## Configuration
-
-- The base URL for GitHub Pages is configured in `vite.config.ts`
-- If you rename your repository, update the `base` property in `vite.config.ts` to match your new repository name
-
-## Technologies Used
-
-- React
-- Vite
-- TypeScript
-- GitHub Actions
-- GitHub Pages
+# Welcome to your Lovable project
 
 ## Project info
 
@@ -119,6 +63,22 @@ This project is built with .
 ## How can I deploy this project?
 
 Simply open [Lovable](https://lovable.dev/projects/d8136ee2-4562-426d-9e9a-3dd0dfca5153) and click on Share -> Publish.
+
+### Deploying to GitHub Pages
+
+This project is configured to deploy to GitHub Pages. The deployment is automated using GitHub Actions.
+
+To deploy to GitHub Pages:
+
+1. Push your changes to the main branch
+2. GitHub Actions will automatically build and deploy your site
+3. Your site will be available at https://christianc561.github.io/Greenview/
+
+If you want to manually trigger a deployment:
+1. Go to your GitHub repository
+2. Navigate to Actions tab
+3. Select the "Deploy to GitHub Pages" workflow
+4. Click "Run workflow"
 
 ## I want to use a custom domain - is that possible?
 
