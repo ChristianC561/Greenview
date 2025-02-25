@@ -1,4 +1,60 @@
-# Welcome to your Lovable project
+# Greenview - Resume Website
+
+This is a personal resume website built with React, Vite, and deployed on GitHub Pages.
+
+## GitHub Pages Deployment
+
+This project is configured to be deployed on GitHub Pages using GitHub Actions. The deployment process is automated through the workflow defined in `.github/workflows/deploy.yml`.
+
+### How it works
+
+1. When you push changes to the `main` branch, GitHub Actions will automatically:
+   - Install dependencies
+   - Build the project
+   - Deploy the built files to the `gh-pages` branch
+
+2. GitHub Pages is configured to serve the content from the `gh-pages` branch.
+
+### Accessing the deployed site
+
+Once deployed, the site will be available at: `https://[your-github-username].github.io/Greenview/`
+
+## Local Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## Customization
+
+To customize this website for your own resume:
+
+1. Edit the content in `src/App.tsx` and other components
+2. Update styles in CSS files
+3. Add your own assets in the `public` directory
+
+## Configuration
+
+- The base URL for GitHub Pages is configured in `vite.config.ts`
+- If you rename your repository, update the `base` property in `vite.config.ts` to match your new repository name
+
+## Technologies Used
+
+- React
+- Vite
+- TypeScript
+- GitHub Actions
+- GitHub Pages
 
 ## Project info
 

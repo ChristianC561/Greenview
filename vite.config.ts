@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // Base URL for GitHub Pages deployment
+  // Change this to match your GitHub repository name
+  base: "/Greenview/",
   server: {
     host: "::",
     port: 8080,
