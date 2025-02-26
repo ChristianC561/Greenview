@@ -25,7 +25,11 @@ const Index = () => {
             <Button size="lg" className="bg-[#9b87f5] hover:bg-[#7E69AB] text-lg px-8" onClick={() => window.open("https://www.linkedin.com/in/christian-michael1/", "_blank")}>
               View My Experience
             </Button>
-            <Button size="lg" variant="outline" className="border-[#9b87f5] text-white hover:bg-[#9b87f5]/10 text-lg px-8" onClick={() => document.getElementById('expertise')?.scrollIntoView({ behavior: 'smooth' })}>
+            <Button 
+              size="lg" 
+              className="bg-transparent hover:bg-white/10 text-white border-2 border-[#9b87f5] text-lg px-8 transition-all" 
+              onClick={() => document.getElementById('expertise')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Discover My Expertise
             </Button>
           </div>
