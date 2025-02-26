@@ -27,7 +27,7 @@ const Index = () => {
             </Button>
             <Button 
               size="lg" 
-              className="bg-transparent hover:bg-white/10 text-white border-2 border-[#9b87f5] text-lg px-8 transition-all" 
+              className="bg-[#1A1F2C] hover:bg-white/10 text-white border-2 border-[#9b87f5] text-lg px-8 transition-all font-medium" 
               onClick={() => document.getElementById('expertise')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Discover My Expertise
