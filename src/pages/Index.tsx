@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Shield, Building2, Users, CheckCircle } from "lucide-react";
@@ -22,7 +21,7 @@ const Index = () => {
           <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-2xl">
             Technical Recruitment Professional specializing in Software Development and IT
           </p>
-          <Button size="lg" className="bg-[#9b87f5] hover:bg-[#7E69AB]">
+          <Button size="lg" className="bg-[#9b87f5] hover:bg-[#7E69AB]" onClick={() => window.open("https://www.linkedin.com/in/christian-michael1/", "_blank")}>
             View My Experience
           </Button>
         </div>
@@ -116,7 +115,7 @@ const Index = () => {
           <p className="text-xl text-gray-600 mb-8">
             Looking for expert recruitment services in technology and healthcare? Let's discuss how I can help you find the perfect talent for your organization.
           </p>
-          <Button size="lg" className="bg-[#9b87f5] hover:bg-[#7E69AB]">
+          <Button size="lg" className="bg-[#9b87f5] hover:bg-[#7E69AB]" onClick={() => window.open("https://www.linkedin.com/in/christian-michael1/", "_blank")}>
             Contact Me
           </Button>
         </div>
