@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
@@ -13,7 +14,7 @@ const Navigation = () => {
             <Link to="/employers" className="hover:text-[#9b87f5] transition-colors">Employers</Link>
             <Link to="/services" className="hover:text-[#9b87f5] transition-colors">Services</Link>
             <Link to="/about" className="hover:text-[#9b87f5] transition-colors">About</Link>
-            <a href="https://www.linkedin.com/in/christian-michael1/" target="_blank" rel="noopener noreferrer" className="hover:text-[#9b87f5] transition-colors">Contact</a>
+            <Link to="/contact" className="hover:text-[#9b87f5] transition-colors">Contact</Link>
           </div>
         </div>
       </div>
