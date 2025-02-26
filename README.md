@@ -64,22 +64,6 @@ This project is built with .
 
 Simply open [Lovable](https://lovable.dev/projects/d8136ee2-4562-426d-9e9a-3dd0dfca5153) and click on Share -> Publish.
 
-### Deploying to GitHub Pages
-
-This project is configured to deploy to GitHub Pages. The deployment is automated using GitHub Actions.
-
-To deploy to GitHub Pages:
-
-1. Push your changes to the main branch
-2. GitHub Actions will automatically build and deploy your site
-3. Your site will be available at https://christianc561.github.io/Greenview/
-
-If you want to manually trigger a deployment:
-1. Go to your GitHub repository
-2. Navigate to Actions tab
-3. Select the "Deploy to GitHub Pages" workflow
-4. Click "Run workflow"
-
 ## I want to use a custom domain - is that possible?
 
 We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
