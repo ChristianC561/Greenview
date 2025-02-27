@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "/Greenview/", // Base path for GitHub Pages
+  base: "/", // Changed from "/Greenview/" to "/" for custom domain support
   plugins: [
     react(),
     mode === 'development' &&
