@@ -57,10 +57,10 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#1A1F2C]">
-              Why Partner With Me?
+              Why Partner With Christian?
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              In today's competitive tech landscape, finding the right talent isn't just about filling positions—it's about building the foundation for your company's future success. I bring a strategic approach to technical recruitment that goes beyond keywords and resumes.
+              In today's competitive tech landscape, finding the right talent isn't just about filling positions—it's about building the foundation for your company's future success. Christian brings a strategic approach to technical recruitment that goes beyond keywords and resumes.
             </p>
           </div>
           
@@ -73,7 +73,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2 text-[#1A1F2C]">Precision Matching</h3>
-                    <p className="text-gray-600">I don't just match skills—I align personalities, work styles, and career aspirations with your company culture and objectives.</p>
+                    <p className="text-gray-600">Christian doesn't just match skills—he aligns personalities, work styles, and career aspirations with your company culture and objectives.</p>
                   </div>
                 </div>
                 
@@ -83,7 +83,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2 text-[#1A1F2C]">Industry Insight</h3>
-                    <p className="text-gray-600">With deep knowledge of tech and healthcare markets, I provide valuable perspectives on talent trends, compensation benchmarks, and skill availability.</p>
+                    <p className="text-gray-600">With deep knowledge of tech and healthcare markets, Christian provides valuable perspectives on talent trends, compensation benchmarks, and skill availability.</p>
                   </div>
                 </div>
                 
@@ -93,7 +93,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2 text-[#1A1F2C]">Accelerated Hiring</h3>
-                    <p className="text-gray-600">My streamlined process reduces time-to-hire by 40%, connecting you with qualified candidates when you need them most.</p>
+                    <p className="text-gray-600">His streamlined process reduces time-to-hire by 40%, connecting you with qualified candidates when you need them most.</p>
                   </div>
                 </div>
               </div>
@@ -124,7 +124,7 @@ const Index = () => {
           Areas of Expertise
         </h2>
         <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto mb-16 leading-relaxed">
-          With specialized knowledge across multiple technical domains, I deliver exceptional talent solutions tailored to your industry's unique challenges and opportunities.
+          With specialized knowledge across multiple technical domains, Christian delivers exceptional talent solutions tailored to your industry's unique challenges and opportunities.
         </p>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -135,7 +135,7 @@ const Index = () => {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 leading-relaxed">
-                Specialized in recruiting software developers, data analysts, and IT professionals across multiple technologies. My technical understanding allows me to evaluate candidates beyond buzzwords, ensuring genuine expertise.
+                Specialized in recruiting software developers, data analysts, and IT professionals across multiple technologies. Christian's technical understanding allows him to evaluate candidates beyond buzzwords, ensuring genuine expertise.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-[#9b87f5]/10 text-[#9b87f5] rounded-full text-sm">Software Engineering</span>
@@ -152,7 +152,7 @@ const Index = () => {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 leading-relaxed">
-                Extensive experience with government contractors and managing client relationships in healthcare and technology sectors. I understand the unique requirements and security clearances needed for these specialized roles.
+                Extensive experience with government contractors and managing client relationships in healthcare and technology sectors. Christian understands the unique requirements and security clearances needed for these specialized roles.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-[#9b87f5]/10 text-[#9b87f5] rounded-full text-sm">Federal Contracts</span>
@@ -169,7 +169,7 @@ const Index = () => {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 leading-relaxed">
-                Expertise in placing medical directors, nursing practitioners, and healthcare professionals. I navigate the complex intersection of healthcare and technology to find specialists who can drive innovation in patient care.
+                Expertise in placing medical directors, nursing practitioners, and healthcare professionals. Christian navigates the complex intersection of healthcare and technology to find specialists who can drive innovation in patient care.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-[#9b87f5]/10 text-[#9b87f5] rounded-full text-sm">Health IT</span>
@@ -185,7 +185,7 @@ const Index = () => {
       <div className="bg-[#1A1F2C] py-20 text-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
-            My Recruitment Process
+            The Recruitment Process
           </h2>
           <p className="text-xl text-gray-300 text-center max-w-3xl mx-auto mb-16 leading-relaxed">
             A strategic, transparent approach designed to identify exceptional talent aligned with your organization's vision and culture.
@@ -205,7 +205,7 @@ const Index = () => {
                 <Target className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-3">2. Sourcing</h3>
-              <p className="text-gray-300">Leveraging my extensive network and advanced search strategies to identify ideal candidates</p>
+              <p className="text-gray-300">Leveraging an extensive network and advanced search strategies to identify ideal candidates</p>
             </div>
             
             <div className="text-center">
@@ -236,7 +236,7 @@ const Index = () => {
                 Technical Expertise
               </h2>
               <p className="text-xl text-gray-600 mb-10 leading-relaxed">
-                My technical background enables me to understand the nuanced requirements of specialized roles, ensuring I connect you with candidates who truly possess the skills your projects demand.
+                Christian's technical background enables him to understand the nuanced requirements of specialized roles, ensuring he connects you with candidates who truly possess the skills your projects demand.
               </p>
               <div className="grid gap-6">
                 {[
@@ -275,7 +275,7 @@ const Index = () => {
           Client Success Stories
         </h2>
         <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto mb-16 leading-relaxed">
-          Don't just take my word for it—hear from the organizations I've helped build exceptional teams.
+          Don't just take Christian's word for it—hear from the organizations he's helped build exceptional teams.
         </p>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

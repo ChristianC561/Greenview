@@ -27,15 +27,15 @@ const About = () => {
       <div className="container mx-auto px-4 py-20">
         <div className="grid md:grid-cols-2 gap-16 items-center mb-20">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-[#1A1F2C]">My Professional Journey</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-[#1A1F2C]">Professional Journey</h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              With over a decade of experience in technical recruitment, I've built a reputation for connecting exceptional talent with innovative organizations across healthcare, technology, and government sectors.
+              With over a decade of experience in technical recruitment, Christian has built a reputation for connecting exceptional talent with innovative organizations across healthcare, technology, and government sectors.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              My career began in healthcare staffing, where I developed a deep understanding of the unique challenges in placing specialized medical professionals. This foundation evolved into a passion for technical recruitment, where I discovered my talent for identifying not just technical skills, but the human qualities that make candidates truly exceptional.
+              His career began in healthcare staffing, where he developed a deep understanding of the unique challenges in placing specialized medical professionals. This foundation evolved into a passion for technical recruitment, where Christian discovered his talent for identifying not just technical skills, but the human qualities that make candidates truly exceptional.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Today, I leverage my extensive network and industry expertise to help organizations build teams that drive innovation, growth, and competitive advantage in rapidly evolving markets.
+              Today, Christian leverages his extensive network and industry expertise to help organizations build teams that drive innovation, growth, and competitive advantage in rapidly evolving markets.
             </p>
           </div>
           <div className="relative">
@@ -55,10 +55,10 @@ const About = () => {
         <div className="mb-20">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#1A1F2C]">
-              My Recruitment Philosophy
+              Recruitment Philosophy
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              I believe that exceptional recruitment is about more than matching skills to job descriptions—it's about understanding the human elements that create lasting professional relationships.
+              Christian believes that exceptional recruitment is about more than matching skills to job descriptions—it's about understanding the human elements that create lasting professional relationships.
             </p>
           </div>
           
@@ -72,7 +72,7 @@ const About = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  I prioritize understanding both client culture and candidate aspirations to create matches that lead to long-term success and satisfaction.
+                  Christian prioritizes understanding both client culture and candidate aspirations to create matches that lead to long-term success and satisfaction.
                 </p>
               </CardContent>
             </Card>
@@ -86,7 +86,7 @@ const About = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  My deep understanding of technical roles allows me to evaluate candidates' capabilities accurately and match them to positions where they'll thrive.
+                  His deep understanding of technical roles allows him to evaluate candidates' capabilities accurately and match them to positions where they'll thrive.
                 </p>
               </CardContent>
             </Card>
@@ -100,7 +100,7 @@ const About = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  I work as an extension of your team, providing insights on market trends, compensation benchmarks, and talent acquisition strategies.
+                  Christian works as an extension of your team, providing insights on market trends, compensation benchmarks, and talent acquisition strategies.
                 </p>
               </CardContent>
             </Card>
@@ -241,7 +241,7 @@ const About = () => {
               Let's Build Something Exceptional Together
             </h2>
             <p className="text-xl text-gray-300 mb-10 leading-relaxed">
-              Ready to elevate your team with top-tier talent? I'm here to help you navigate the complex landscape of technical recruitment and find the perfect candidates for your organization.
+              Ready to elevate your team with top-tier talent? Christian is here to help you navigate the complex landscape of technical recruitment and find the perfect candidates for your organization.
             </p>
             <button 
               className="bg-[#9b87f5] hover:bg-[#7E69AB] text-white px-10 py-4 rounded-lg text-lg font-medium transition-colors"
